@@ -8,6 +8,19 @@ public class Student {
 		this.name = name;
 		this.dateBirth = dateBirth;
 	}
+	
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public int getDateBirth() {
+		return dateBirth;
+	}
+
+
 
 	@Override
 	public String toString() {
