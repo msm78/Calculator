@@ -26,6 +26,12 @@ public class Main {
 		hs.addAll(new ImportFromFile("..\\Students.txt").getList());
 		for (Student st: hs)
 			System.out.println(st);
+		System.out.println("\nStudents with name begin [EYUIOAJ]:");
+		for (Student st: hs) {
+			if (st.matches("^[EYUIOAJ].*")) {
+				System.out.println(st);
+			}
+		}
 	}
 
 }
